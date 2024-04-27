@@ -40,7 +40,7 @@ export default function Home() {
           <h1>Luigi Bardella Gerbi</h1>
           <h2>Software Engineer</h2>
           <p>I learn fast, I’m extremely curious and practice self-awareness daily.</p>
-          <nav>
+          {/* <nav>
             <ul>
               <li className={styles.active}><a  href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
@@ -49,11 +49,10 @@ export default function Home() {
               <li><a href="#silicon">Silicon Valley</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
-        <div>
-        </div>
-        <div className={styles.social}></div>
+        
+        {/* <div className={styles.social}></div> */}
       </header>
       <main className={styles.main}>
         <section id="about" className={styles.about}>
