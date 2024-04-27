@@ -276,5 +276,34 @@ border: 1px solid rgba(255, 255, 255, 0.09);
     .header nav ul li:hover::before, .header nav ul li.active::before{
         width: 40px;
     }
+
+    /*Remove all hover effects on mobile*/
+    .item:hover{
+        background: none;
+        border-radius: 12px;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        border: 1px solid rgba(255, 255, 255, 0);
+    }
+
+    .item:hover h3:after{
+        transform: translate(0px, 0px);
+    }
+
+    .item:hover h3{
+        color: inherit;
+    }
+
+    .link:hover{
+        color: inherit;
+    }
+
+    .header nav{
+        display: none;
+    }
+
+    
+
     
 }
