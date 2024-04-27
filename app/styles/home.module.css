@@ -54,6 +54,7 @@
 
 .linksContainer{
     display: flex;
+    flex-direction: column;
     gap: 20px;
     margin-top: 20px;
 }
@@ -88,6 +89,10 @@
     display: block;
     background-color: rgb(254, 98, 29);
     transition: all 0.3s;
+}
+
+.thumbnail{
+    width: 100px;
 }
 
 .header nav ul li:hover, .header nav ul li.active{
@@ -147,6 +152,10 @@ border: 1px solid rgba(255, 255, 255, 0.09);
     color: #6c757d;
     padding-top: 4px;
     min-width: 100px;
+}
+
+.item .date{
+    width: 100px;
 }
 
 .item .content p{
@@ -235,6 +244,10 @@ border: 1px solid rgba(255, 255, 255, 0.09);
         height: 20px;
     }
 
+   .thumbnail{
+        display: none;
+    }
+
     .header nav ul li:hover::before, .header nav ul li.active::before{
         width: 1px;
         height: 60px;
@@ -303,7 +316,7 @@ border: 1px solid rgba(255, 255, 255, 0.09);
         display: none;
     }
 
-    
+
 
     
 }
