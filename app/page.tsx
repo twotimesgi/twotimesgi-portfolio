@@ -170,7 +170,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
                   <h3>Encode x Algorand (2nd prize)</h3>
                   <p>Building on its mission as a blockchain-based crowdfunding platform, Greengo secured second place among 12 finalists in the DeFi Challenge hackathon organized by Encode x Algorand. Following this achievement, it earned an invitation to join the Algorand x Encode Accelerator programme.</p>
                   <div className={styles.linksContainer}>
-                    <span className={styles.link}><a href="">Encode x Algorand Hackathon: Prizewinners and Summary</a></span>
+                    <span className={styles.link}><a href="https://main--effulgent-marshmallow-2fa690.netlify.app/">Demo</a></span>
                   </div>
                   <div className={styles.pillContainer}>
                       <div className={styles.pill}>Blockchain</div>

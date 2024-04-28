@@ -117,13 +117,11 @@
     margin-bottom: 20px;
 }
 
-.main section{
-    margin-bottom: 100px;
-}
+
 .main{
     flex-basis: 50%;
     scroll-behavior: smooth;
-    padding: 10px 100px;
+    padding: 100px;
 }
 
 .about p{
@@ -131,7 +129,7 @@
 }
 
 .main section{
-    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
