@@ -244,9 +244,9 @@ border: 1px solid rgba(255, 255, 255, 0.09);
         height: 20px;
     }
 
-   .thumbnail{
+   /* .thumbnail{
         display: none;
-    }
+    } */
 
     .header nav ul li:hover::before, .header nav ul li.active::before{
         width: 1px;
@@ -315,8 +315,5 @@ border: 1px solid rgba(255, 255, 255, 0.09);
     .header nav{
         display: none;
     }
-
-
-
     
 }
