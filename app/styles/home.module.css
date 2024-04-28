@@ -278,6 +278,9 @@ padding-left: 20px;
 border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
+    .wrapper{
+        background: radial-gradient(600px at 0% 00%, rgba(29, 78, 216, 0.15), transparent 80%);
+    }
     .main{
         padding: 0;
     }
