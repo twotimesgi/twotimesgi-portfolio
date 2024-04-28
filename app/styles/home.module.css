@@ -67,6 +67,7 @@
 }
 
 .linksContainer .link{
+    cursor: pointer;
     font-size: 0.9rem;
     font-weight: 600;
     color: rgb(var(--headline-rgb));
