@@ -291,6 +291,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
     .item{
         flex-direction: column;
+        gap: 5px;
     }
     .item .content p{
         font-size: 0.8rem;
