@@ -279,7 +279,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     .wrapper{
-        background: radial-gradient(600px at 0% 0%, rgba(29, 78, 216, 0.15), transparent 80%);
+        background: radial-gradient(600px at 0% 0%, rgba(29, 78, 216, 0.15), transparent 80%) !important;
     }
     .main{
         padding: 0;
