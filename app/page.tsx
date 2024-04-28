@@ -84,6 +84,10 @@ export default function Home() {
                 <div className={styles.content}>
                   <h3>Software Engineer · Logyq Protocol</h3>
                   <p>Delivered multiple products and core features. As the first tech hire at Logyq Protocol, I played a pivotal role in shaping the technology stack.</p>
+                  <div className={styles.linksContainer}>
+                    <span className={styles.link}><a href="https://www.lidonation.com/ja/proposals/logyq-protocol-social-commerce-and-digital-product-passport-f10#:~:text=Luigi%20Bardella%20Gerbi%20is%20our%20first%20employee%20and%20has%20been%20an%20invaluable%20contributor%20to%20our%20development%20work.%20He%20has%20proven%20to%20be%20up%20to%20any%20coding%20challenge%20and%20has%20helped%20us%20extensively%20in%20designing%20our%20product%20suite."> Luigi Bardella Gerbi is our first employee and has been an invaluable contributor to our development work. He has proven to be up to any coding challenge and has helped us extensively in designing our product suite."
+</a></span>
+                  </div>
                   <div className={styles.pillContainer}>
                       {[ "Blockchain", "Web3", "React", "Next.js", "TypeScript", "Flutter", "Liquid", "Node.js", "Shopify API", "Discord API", "Python", "Wagmi.js", "Google Cloud", "Cardano Node"].map((tag, index) => <div key={index} className={styles.pill}>{tag}</div>)}
                   </div>
