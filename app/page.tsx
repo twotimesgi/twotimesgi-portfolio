@@ -57,11 +57,14 @@ export default function Home() {
       <main className={styles.main}>
         <section id="about" className={styles.about}>
           <h2>About me</h2>
-          <p>Ever since I wrote my first line of code at the age of 12, I have been captured by the joy of building. During high school and my degree in Business & Management, I helped dozens of SMEs digitalize their business and establish their online presence by building Funnels and Ecommerce stores.</p>
+          <p>Hello👋, I'm Luigi! Since writing my first line of code at 12, I've been captivated by the joy of building.
+          </p><p>
+          During my bachelor in Business & Management, I helped dozens of SMEs in digitalizing their business and establishing their online presence through Digital Marketing. 
+          </p>
           <p>After rediscovering my passion for coding during the lockdown period, I started to work as a Software Engineer (and first tech hire) at Logyq Protocol, a web3 startup, where I contributed to build their products from scratch. </p>
           <p>In the first six months of 2023, while working remote for Logyq, I had the opportunity to couch surf across 10 countries, exploring different cultures and tastes.</p>
-          <p>Currently, I am participating in a unique program, GENOAES, that blends an accelerator with a master's degree, offered jointly by the University of Genoa and Georgetown University.</p>
-        </section>
+          
+       </section>
         <section id="experience" className={styles.experience}>          
         <h2>Experience</h2>
           {experience.map((exp, index) => (
