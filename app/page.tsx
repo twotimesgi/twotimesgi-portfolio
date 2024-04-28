@@ -77,23 +77,32 @@ export default function Home() {
        </section>
         <section id="experience" className={styles.experience}>          
         <h2 ref={experienceSection}>Work Experience</h2>
-          {experience.map((exp, index) => (
-            <a key={index} href={exp.website}>
+          
+<a href="https://logyqprotocol.com"> 
               <div className={styles.item}>
-                <div className={styles.date}>{exp.date}</div>
+                <div className={styles.date}>2022 - 2023</div>
                 <div className={styles.content}>
-                  <h3>{exp.title} · {exp.company}</h3>
-                  <p>{exp.description}</p>
+                  <h3>Software Engineer · Logyq Protocol</h3>
+                  <p>Delivered multiple products and core features. As the first tech hire at Logyq Protocol, I played a pivotal role in shaping the technology stack.</p>
                   <div className={styles.pillContainer}>
-                    {exp.tags.map((tag, index) => (
-                      <div key={index} className={styles.pill}>{tag}</div>
-                    ))}
+                      {[ "Blockchain", "Web3", "React", "Next.js", "TypeScript", "Flutter", "Liquid", "Node.js", "Shopify API", "Discord API", "Python", "Wagmi.js", "Google Cloud", "Cardano Node"].map((tag, index) => <div key={index} className={styles.pill}>{tag}</div>)}
                   </div>
                 </div>
               </div>
             </a>
-          ))}
 
+            <a href="">
+              <div className={styles.item}>
+                <div className={styles.date}>2019 - 2021</div>
+                <div className={styles.content}>
+                  <h3>Freelancer</h3>
+                  <p>I helped dozens of SMEs digitalize their business and establish their online presence by building funnels and ecommerce stores.</p>
+                  <div className={styles.pillContainer}>
+                  {["Shopify", "Liquid", "Google Tag Manager", "Wordpress","Google Analytics", "Facebook Pixel", "Google Ads", "Facebook Ads"].map((tag, index) => <div key={index} className={styles.pill}>{tag}</div>)}
+                  </div>
+                </div>
+              </div>
+            </a>
         </section>
         <section id="projects" className={styles.projects}>
           <h2 ref={projectsSection}>Projects</h2>
