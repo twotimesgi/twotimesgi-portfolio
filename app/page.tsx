@@ -88,7 +88,7 @@ export default function Home() {
         <section id="projects" className={styles.projects}>
           <h2>Projects</h2>
 
-          <a href=""><div className={styles.item}>
+          <a href="https://github.com/twotimesgi/KNN"><div className={styles.item}>
           <div className={styles.thumbnail}>
             <img alt="project thumbnail" width={100}src={"https://i.pinimg.com/originals/9b/35/bd/9b35bda37a361d888596694c3dd9aad2.jpg"}/ >
             </div>
