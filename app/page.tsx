@@ -1,8 +1,9 @@
 'use client'
 import styles from "./styles/home.module.css";
 import useMousePosition from "./useMousePosition";
-import { useEffect, useRef } from "react";
+import { Ref, useEffect, useRef } from "react";
 import Image from "next/image";
+import Tesla from "../public/tesla.png";
 const experience = [
   {
     title: "Software Engineer",
@@ -25,12 +26,26 @@ const experience = [
 ];
 
 export default function Home() {
+  const aboutSection = useRef<HTMLHeadingElement>(null);
+  const experienceSection = useRef<HTMLHeadingElement>(null);
+  const projectsSection = useRef<HTMLHeadingElement>(null);
+  const hackatonsSection = useRef<HTMLHeadingElement>(null);
+  const siliconSection = useRef<HTMLHeadingElement>(null);
+
   const wrapper = useRef<HTMLDivElement>(null);
   const mousePosition = useMousePosition();
 
   useEffect(() => {
     if (wrapper.current) wrapper.current.style.background = `radial-gradient(600px at ${mousePosition.x}px ${mousePosition.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`
   }, [mousePosition]);
+
+//   const checkInView = (ref: React.RefObject<HTMLHeadingElement | null>) => {
+//     if(ref.current){
+//     let rect = ref.current.getBoundingClientRect();
+//     return rect.top < window.innerHeight && rect.bottom >= 0;
+//     }
+//     return false;
+// };
 
   return (
     <div ref={wrapper} className={styles.wrapper}>
@@ -42,12 +57,11 @@ export default function Home() {
           {/* <p>I learn fast, I’m extremely curious and practice self-awareness daily.</p> */}
           {/* <nav>
             <ul>
-              <li className={styles.active}><a  href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#hackatons">Hackatons</a></li>
-              <li><a href="#silicon">Silicon Valley</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li className={checkInView(aboutSection) ? styles.active: ""}><a  href="#about">About</a></li>
+              <li className={checkInView(experienceSection) ? styles.active: ""}><a href="#experience">Experience</a></li>
+              <li className={checkInView(projectsSection) ? styles.active: ""}><a href="#projects">Projects</a></li>
+              <li className={checkInView(hackatonsSection) ? styles.active: ""}><a href="#hackatons">Hackatons</a></li>
+              <li className={checkInView(siliconSection) ? styles.active: ""}><a href="#silicon">Silicon Valley & US</a></li>
             </ul>
           </nav> */}
         </div>
@@ -56,13 +70,13 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <section id="about" className={styles.about}>
-          <h2>About me</h2>
+          <h2 ref={aboutSection} >About me</h2>
           <p>Hello👋, I'm Luigi! Since writing my first line of code at 12, I've been captivated by the joy of building.
           </p>
           
        </section>
         <section id="experience" className={styles.experience}>          
-        <h2>Experience</h2>
+        <h2 ref={experienceSection}>Work Experience</h2>
           {experience.map((exp, index) => (
             <a key={index} href={exp.website}>
               <div className={styles.item}>
@@ -82,7 +96,7 @@ export default function Home() {
 
         </section>
         <section id="projects" className={styles.projects}>
-          <h2>Projects</h2>
+          <h2 ref={projectsSection}>Projects</h2>
 
           <a href="https://github.com/twotimesgi/KNN"><div className={styles.item}>
           <div className={styles.thumbnail}>
@@ -105,8 +119,8 @@ export default function Home() {
 
           </a>
         </section>
-        <section id="projects" className={styles.projects}>
-          <h2>Hackatons</h2>
+        <section id="hackatons"  className={styles.projects}>
+          <h2 ref={hackatonsSection}>Hackatons</h2>
           <p>
 In the chaotic realm of hackathons, success often boils down to the art of piecing things together with a mix of Red Bull-fueled energy and sheer determination, transforming ideas into (barely) working solutions.</p>
           <a href=""><div className={styles.item}>
@@ -210,6 +224,12 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
                 
 
           </a>
+        </section>
+        <section id="silicon"  className={styles.silicon}>
+        <h2 ref={siliconSection}>Silicon Valley & Washington D.C.</h2>
+        <p>I've had the incredible privilege of being selected not just once, but twice, to embark on immersive journeys to Silicon Valley. </p><p>Both opportunities, bestowed upon me by the Silicon Valley Study Tour (SVST) and the esteemed Silicon Valley Fellowship, were grounded on personal merit. These experiences provided invaluable insights into the heartbeat of innovation and entrepreneurship.</p><p> Building upon this foundation, I decided to further hone my skills by pursuing a <b>Master's in Entrepreneurship at Georgetown University and University of Genoa</b>, to fuel my aspirations in the dynamic realm of startups and innovation.</p>
+        <Image style={{width: "100%", height: "auto"}}alt="Luigi at Tesla" src={Tesla}></Image>
+        <p></p>
         </section>
       </main>
     </div>
