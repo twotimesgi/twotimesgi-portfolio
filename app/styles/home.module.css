@@ -216,10 +216,14 @@ border: 1px solid rgba(255, 255, 255, 0.09);
         flex-direction: column;
     }
 
+    .header{
+        position: relative;
+
+    }
+
     .header div{
         width: 100%;
         height: auto;
-        position: relative;
         align-items: center;     
         display: flex;  
         flex-direction: column;
