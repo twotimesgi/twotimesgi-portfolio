@@ -115,7 +115,7 @@ export default function Home() {
 In the chaotic realm of hackathons, success often boils down to the art of piecing things together with a mix of Red Bull-fueled energy and sheer determination, transforming ideas into (barely) working solutions.</p>
           <a href=""><div className={styles.item}>
           <div className={styles.thumbnail}>
-            <img alt="project thumbnail" width={50}src={"https://thehub-io.imgix.net/files/s3/20200207125602-4d7877684841560f4fa59e54a9c45f9d.png?fit=crop&w=300&h=300&auto=format&q=60"}/ >
+            <img alt="project thumbnail" width={40}src={"https://thehub-io.imgix.net/files/s3/20200207125602-4d7877684841560f4fa59e54a9c45f9d.png?fit=crop&w=300&h=300&auto=format&q=60"}/ >
             </div>
             <div className={styles.content}>
                   <h3>Talent Garden x Var Group (1st prize)</h3>
@@ -139,7 +139,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
           </a>
           <a href=""><div className={styles.item}>
           <div className={styles.thumbnail}>
-            <img alt="project thumbnail" width={50}src={"https://cryptologos.cc/logos/celo-celo-logo.png"}/ >
+            <img alt="project thumbnail" width={40}src={"https://cryptologos.cc/logos/celo-celo-logo.png"}/ >
 
             </div>
             <div className={styles.content}>

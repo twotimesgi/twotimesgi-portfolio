@@ -70,6 +70,15 @@
     color: #fe621d;
 }
 
+.thumbnail{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail img{
+    align-self: flex-start;
+}
 .linksContainer .link::before{
     content: "🔗";
     font-size: 0.8rem;
