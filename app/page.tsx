@@ -10,8 +10,8 @@ const experience = [
     website: "https://logyqprotocol.com",
     location: "Remote",
     date: "2022 - 2023",
-    description: "Delivered multiple products and core features. As the first tech hire at Logyq, I played a pivotal role in shaping the technology stack.",
-    tags: ["React", "Next.js", "TypeScript", "Flutter", "Liquid", "Node.js", "Shopify API", "Discord API", "Python", "Wagmi.js", "Google Cloud", "Blockchain", "Cardano Node"],
+    description: "Delivered multiple products and core features. As the first tech hire at Logyq Protocol, I played a pivotal role in shaping the technology stack.",
+    tags: [ "Blockchain", "Web3", "React", "Next.js", "TypeScript", "Flutter", "Liquid", "Node.js", "Shopify API", "Discord API", "Python", "Wagmi.js", "Google Cloud", "Cardano Node"],
   },
   {
     title: "Fucking Around",
@@ -58,11 +58,7 @@ export default function Home() {
         <section id="about" className={styles.about}>
           <h2>About me</h2>
           <p>Hello👋, I'm Luigi! Since writing my first line of code at 12, I've been captivated by the joy of building.
-          </p><p>
-          During my bachelor in Business & Management, I helped dozens of SMEs in digitalizing their business and establishing their online presence through Digital Marketing. 
           </p>
-          <p>After rediscovering my passion for coding during the lockdown period, I started to work as a Software Engineer (and first tech hire) at Logyq Protocol, a web3 startup, where I contributed to build their products from scratch. </p>
-          <p>In the first six months of 2023, while working remote for Logyq, I had the opportunity to couch surf across 10 countries, exploring different cultures and tastes.</p>
           
        </section>
         <section id="experience" className={styles.experience}>          
