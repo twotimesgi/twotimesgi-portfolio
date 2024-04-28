@@ -278,7 +278,7 @@ border: 1px solid rgba(255, 255, 255, 0.09);
         flex-direction: column;
     }
 
-    .header div p{
+    .about p{
         width: 100%;
         text-align: center;
     }
