@@ -114,7 +114,7 @@
 .main{
     flex-basis: 50%;
     scroll-behavior: smooth;
-    padding: 100px;
+    padding: 10px 100px;
 }
 
 .about p{
