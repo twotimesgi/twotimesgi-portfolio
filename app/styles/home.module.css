@@ -121,7 +121,7 @@
 .main{
     flex-basis: 50%;
     scroll-behavior: smooth;
-    padding: 100px;
+    padding: 50px;
 }
 
 .about p{
@@ -211,10 +211,59 @@ border: 1px solid rgba(255, 255, 255, 0.09);
     color: rgb(254, 98, 29);
 }
 
+@media screen and (max-width: 1024px){
+
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .header{
+        position: relative;
+
+    }
+
+    .header div{
+        width: 100%;
+        height: auto;
+        align-items: center;     
+        display: flex;  
+        flex-direction: column;
+    }
+
+    .item{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .main section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    }
+
+    .main section h2{
+        width: 100%;
+    }
+
+    .main section > a{
+        width: calc(100% / 2);
+        display: block;
+    }
+    
+}
 @media screen and (max-width: 768px){
     .wrapper{
         flex-direction: column;
     }
+
+    .main section{
+        display: block;
+        }
+    
+        .main section > a{
+            width: auto;
+            display: inline;
+        }
 
     .header{
         position: relative;
