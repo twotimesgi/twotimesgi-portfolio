@@ -39,7 +39,7 @@ export default function Home() {
           <img style={{borderRadius: "100px"}}width="150" src="https://media.licdn.com/dms/image/D4E03AQE9XiGD1WbbxQ/profile-displayphoto-shrink_800_800/0/1700247681332?e=1719446400&v=beta&t=hTyS180XBZuEGo4UUs_D7XQVPgl9I7G6peCczIwuZog"></img>
           <h1>Luigi Bardella Gerbi</h1>
           <h2>Software Engineer</h2>
-          <p>I learn fast, I’m extremely curious and practice self-awareness daily.</p>
+          {/* <p>I learn fast, I’m extremely curious and practice self-awareness daily.</p> */}
           {/* <nav>
             <ul>
               <li className={styles.active}><a  href="#about">About</a></li>
