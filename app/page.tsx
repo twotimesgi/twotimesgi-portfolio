@@ -4,6 +4,7 @@ import useMousePosition from "./useMousePosition";
 import { Ref, useEffect, useRef } from "react";
 import Image from "next/image";
 import Tesla from "../public/tesla.png";
+import Pokeball from "../public/pokeball.png";
 const experience = [
   {
     title: "Software Engineer",
@@ -124,7 +125,7 @@ export default function Home() {
 
           <a href="https://github.com/twotimesgi/KNN"><div className={styles.item}>
           <div className={styles.thumbnail}>
-            <img alt="project thumbnail" width={100}src={"https://i.pinimg.com/originals/9b/35/bd/9b35bda37a361d888596694c3dd9aad2.jpg"}/ >
+            <Image alt="project thumbnail" height={55} src={Pokeball}/ >
             </div>
             <div className={styles.content}>
                   <h3 className={styles.link}>KNN</h3>
