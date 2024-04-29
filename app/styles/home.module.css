@@ -23,7 +23,7 @@
 
 
 .header{
-    flex-basis: 50%;
+    flex-basis: 40%;
     padding: 100px;
     position: sticky;
     top: 0;
@@ -152,7 +152,7 @@
 
 
 .main{
-    flex-basis: 50%;
+    flex-basis: 60%;
     scroll-behavior: smooth;
     padding: 50px;
 }
@@ -385,6 +385,11 @@ backdrop-filter: blur(10px);
 padding-left: 20px;
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .socialBox{
+        display: flex;
+        flex-direction: row;
     }
 
     .wrapper{
