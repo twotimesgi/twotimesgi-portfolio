@@ -51,7 +51,7 @@ export default function Home() {
     <div ref={wrapper} className={styles.wrapper}>
       <header className={styles.header}>
         <div>
-          <img style={{borderRadius: "100px"}}width="150" src="https://media.licdn.com/dms/image/D4E03AQE9XiGD1WbbxQ/profile-displayphoto-shrink_800_800/0/1700247681332?e=1719446400&v=beta&t=hTyS180XBZuEGo4UUs_D7XQVPgl9I7G6peCczIwuZog"></img>
+          <img style={{borderRadius: "100px", border: "6px solid rgb(254, 98, 29)"}}width="150" src="https://media.licdn.com/dms/image/D4E03AQE9XiGD1WbbxQ/profile-displayphoto-shrink_800_800/0/1700247681332?e=1719446400&v=beta&t=hTyS180XBZuEGo4UUs_D7XQVPgl9I7G6peCczIwuZog"></img>
           <h1>Luigi Bardella Gerbi</h1>
           <h2>Software Engineer</h2>
           {/* <p>I learn fast, I’m extremely curious and practice self-awareness daily.</p> */}
@@ -240,9 +240,10 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
         </section>
         <section id="silicon"  className={styles.silicon}>
         <h2 ref={siliconSection}>Silicon Valley & Washington D.C.</h2>
-        <p>I've had the incredible privilege of being selected not just once, but twice, to embark on immersive journeys to Silicon Valley. </p><p>Both opportunities, bestowed upon me by the Silicon Valley Study Tour (SVST) and the esteemed Silicon Valley Fellowship, were grounded on personal merit. These experiences provided invaluable insights into the heartbeat of innovation and entrepreneurship.</p><p> Building upon this foundation, I decided to further hone my skills by pursuing a <b>Master's in Entrepreneurship at Georgetown University and University of Genoa</b>, to fuel my aspirations in the dynamic realm of startups and innovation.</p>
+        <p>I've had the incredible privilege of being selected not just once, but twice, to embark on immersive journeys to Silicon Valley. </p><p>Both opportunities, bestowed upon me by the Silicon Valley Study Tour (SVST) and the esteemed Silicon Valley Fellowship, were grounded on personal merit. These experiences provided invaluable insights into the heartbeat of innovation and entrepreneurship.</p>
         <Image style={{width: "100%", height: "auto"}}alt="Luigi at Tesla" src={Tesla}></Image>
-        <p></p>
+        <p> Building upon this foundation, I decided to further hone my skills by pursuing a <b>Master's in Entrepreneurship at Georgetown University and University of Genoa</b>, to fuel my aspirations in the dynamic realm of startups and innovation.</p>
+        <img style={{width: "100%", height: "auto"}} src={"https://www.genoaes.com/_next/image?url=%2Fimages%2Fempower.png&w=1920&q=75"}/>
         </section>
       </main>
     </div>

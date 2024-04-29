@@ -7,7 +7,7 @@
 
 
 .header{
-    flex-basis: 50%;
+    flex-basis: 40%;
     padding: 100px;
     position: sticky;
     top: 0;
@@ -15,8 +15,13 @@
 }
 
 .header h1{
-    font-size: 3rem;
+    font-size: 2.3rem;
     margin-top: 20px;
+}
+
+.about p{
+    font-size: 2rem;
+    line-height: calc(2rem*1.3);
 }
 
 .header h2{
@@ -127,7 +132,7 @@
 
 
 .main{
-    flex-basis: 50%;
+    flex-basis: 60%;
     scroll-behavior: smooth;
     padding: 50px;
 }
@@ -192,6 +197,10 @@ border: 1px solid rgba(255, 255, 255, 0.09);
     background: rgb(254, 98, 29);
     color: white;
     font-size: 0.8rem;
+}
+
+#silicon img{
+    margin-bottom: 1000px;
 }
 
 .item a{
@@ -288,8 +297,12 @@ border: 1px solid rgba(255, 255, 255, 0.09);
 
     .about p{
         width: 100%;
+        font-size: 1rem;
         text-align: center;
+        line-height: calc(1rem*1.6);
     }
+
+    
     
     .about h2{
         display: none;
@@ -306,6 +319,7 @@ border: 1px solid rgba(255, 255, 255, 0.09);
 
     .header h1{
         font-size: 2rem;
+        line-height: calc(2rem*1.2);
     }
 
     .header p{
