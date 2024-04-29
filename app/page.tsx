@@ -253,7 +253,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
         <h2 ref={siliconSection}>Silicon Valley & Washington D.C.</h2>
         <p>I've had the incredible privilege of being selected not just once, but twice, to embark on immersive journeys to Silicon Valley. </p><p>Both opportunities, bestowed upon me by the Silicon Valley Study Tour (SVST) and the esteemed Silicon Valley Fellowship, were grounded on personal merit. These experiences provided invaluable insights into the heartbeat of innovation and entrepreneurship.</p>
         <Image style={{width: "100%", height: "auto"}}alt="Luigi at Tesla" src={Tesla}></Image>
-        <p> Building upon this foundation, I decided to further hone my skills by pursuing a <b>Master's in Entrepreneurship at Georgetown University and University of Genoa</b>, to fuel my aspirations in the dynamic realm of startups and innovation.</p>
+        <p> Building upon this foundation, I decided to further hone my skills by pursuing a <b>Master's in Entrepreneurship at Georgetown University and University of Genoa</b>, to fuel my aspirations in the realm of startups and innovation.</p>
         <img style={{width: "100%", height: "auto"}} src={"https://www.genoaes.com/_next/image?url=%2Fimages%2Fempower.png&w=1920&q=75"}/>
         </section>
       </main>
