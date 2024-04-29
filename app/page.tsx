@@ -201,7 +201,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
         
           <div className={styles.item}>
           <div className={styles.thumbnail}>
-            <img alt="project thumbnail" width="40px" src={"https://cryptologos.cc/logos/algorand-algo-logo.png"}/ >
+            <img alt="project thumbnail" width="30px" src={"https://cryptologos.cc/logos/algorand-algo-logo.png"}/ >
             </div>
             <div className={styles.content}>
                   <h3>Encode x Algorand (2nd prize)</h3>
@@ -225,7 +225,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
           
           <div className={styles.item}>
           <div className={styles.thumbnail}>
-            <img alt="project thumbnail" width="50px" src={"https://avatars.githubusercontent.com/u/104076707?s=280&v=4"}/ >
+            <img alt="project thumbnail" width="40px" src={"https://avatars.githubusercontent.com/u/104076707?s=280&v=4"}/ >
             </div>
             <div className={styles.content}>
                   <h3>Venom Foundation</h3>
