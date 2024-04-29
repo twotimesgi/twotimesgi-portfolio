@@ -154,9 +154,12 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
             </div>
             <div className={styles.content}>
                   <h3>Talent Garden x Var Group (1st prize)</h3>
-                  <p>In just 36 hours, our team, consisting of me and Paolo Grignaffini, developed the idea and a working prototype to leverage Blockchain for building loyalty and trust in the private labels of one of the 12 partner companies. Using Next.js, Wagmi, and deploying our smart contracts on the Mumbai Testnet, we emerged as the first prize winners.</p>
+                  <p>In just 36 hours, our team, consisting of me and Paolo Grignaffini, developed the idea and a working prototype to leverage Blockchain for building loyalty and trust in the private labels of Eurospin, one of the 12 partner companies. 
+ We duplicated the Eurospin website, integrating a decentralized marketplace and an NFT Einstein-themed loyalty program. Deploying smart contracts on the Mumbai Testnet, we emerged as first prize winners.</p>
                   <div className={styles.linksContainer}>
                     <span className={styles.link}><a href="https://www.linkedin.com/posts/vargroup-spa_il-team-di-lavoro-di-eurospin-vince-lhackathon-activity-6989176850501545984-LLT1/?utm_source=share&utm_medium=member_desktop">VarGroup: Congratulations to the Hackathon Winners!
+</a></span><span className={styles.link}><a href="https://drive.google.com/file/d/1_oIMuxdj4EjzwRHlj2BkFKgLZcYnrIeG/view">Pitch Deck
+</a></span><span className={styles.link}><a href="https://testnets.opensea.io/collection/eurospin">NFT Collection
 </a></span>
                   </div>
                   <div className={styles.pillContainer}>
