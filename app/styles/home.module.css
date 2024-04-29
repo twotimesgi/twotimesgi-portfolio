@@ -304,12 +304,11 @@ border: 1px solid rgba(255, 255, 255, 0.09);
 }
 @media screen and (max-width: 768px){
 
-    .header{
-        height: 100vh;
-    }
+    
 
     .wrapper{
         flex-direction: column;
+        gap: 40px;
     }
 
     .main section{
