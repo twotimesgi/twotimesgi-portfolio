@@ -54,7 +54,11 @@ export default function Home() {
           <img style={{borderRadius: "100px", border: "6px solid rgb(254, 98, 29)"}}width="150" src="https://media.licdn.com/dms/image/D4E03AQE9XiGD1WbbxQ/profile-displayphoto-shrink_800_800/0/1700247681332?e=1719446400&v=beta&t=hTyS180XBZuEGo4UUs_D7XQVPgl9I7G6peCczIwuZog"></img>
           <h1>Luigi Bardella Gerbi</h1>
           <h2>Software Engineer</h2>
-          {/* <p>I learn fast, I’m extremely curious and practice self-awareness daily.</p> */}
+         <section id="about" className={styles.about}>
+          <p>Hi, I'm Luigi!👋</p><p>Since writing my first line of code at 12, I've been captivated by the joy of building.</p> 
+          
+          
+       </section>
           {/* <nav>
             <ul>
               <li className={checkInView(aboutSection) ? styles.active: ""}><a  href="#about">About</a></li>
@@ -81,12 +85,7 @@ export default function Home() {
         {/* <div className={styles.social}></div> */}
       </header>
       <main className={styles.main}>
-        <section id="about" className={styles.about}>
-          <h2 ref={aboutSection} >About me</h2>
-          <p><p>Hi, I'm Luigi!👋</p><p>Since writing my first line of code at 12, I've been captivated by the joy of building.</p><p>From that moment, I knew that I had discovered my passion – a passion that would drive me to explore the endless possibilities of software development and entrepreneurship. </p> 
-          </p>
-          
-       </section>
+        
         <section id="experience" className={styles.experience}>          
         <h2 ref={experienceSection}>Work Experience</h2>
           
@@ -94,7 +93,7 @@ export default function Home() {
               <div className={styles.item}>
                 <div className={styles.date}>2022 - 2023</div>
                 <div className={styles.content}>
-                  <h3>Software Engineer · Logyq Protocol</h3>
+                  <h3 className={styles.link}>Software Engineer · Logyq Protocol</h3>
                   <p>Delivered multiple products and core features. As the first tech hire at Logyq Protocol, I played a pivotal role in shaping the technology stack.</p>
                   <div className={styles.linksContainer}>
                     <span className={styles.link}><a href="https://www.lidonation.com/ja/proposals/logyq-protocol-social-commerce-and-digital-product-passport-f10#:~:text=Luigi%20Bardella%20Gerbi%20is%20our%20first%20employee%20and%20has%20been%20an%20invaluable%20contributor%20to%20our%20development%20work.%20He%20has%20proven%20to%20be%20up%20to%20any%20coding%20challenge%20and%20has%20helped%20us%20extensively%20in%20designing%20our%20product%20suite.">"Luigi Bardella Gerbi is our first employee and has been an invaluable contributor to our development work. He has proven to be up to any coding challenge and has helped us extensively in designing our product suite."
@@ -107,7 +106,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="">
+            
               <div className={styles.item}>
                 <div className={styles.date}>2019 - 2021</div>
                 <div className={styles.content}>
@@ -118,7 +117,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </a>
+           
         </section>
         <section id="projects" className={styles.projects}>
           <h2 ref={projectsSection}>Projects</h2>
@@ -128,7 +127,7 @@ export default function Home() {
             <img alt="project thumbnail" width={100}src={"https://i.pinimg.com/originals/9b/35/bd/9b35bda37a361d888596694c3dd9aad2.jpg"}/ >
             </div>
             <div className={styles.content}>
-                  <h3>KNN</h3>
+                  <h3 className={styles.link}>KNN</h3>
                   <p>In this project, I implemented the K-Nearest Neighbors (KNN) algorithm from scratch using Python. Then, trained the model on a dataset containing Pokémon statistics to predict whether a Pokémon is legendary or not based on its attributes.</p>
                   <div className={styles.pillContainer}>
                       <div className={styles.pill}>KNN</div>
@@ -148,7 +147,7 @@ export default function Home() {
           <h2 ref={hackatonsSection}>Hackatons</h2>
           <p>
 In the chaotic realm of hackathons, success often boils down to the art of piecing things together with a mix of Red Bull-fueled energy and sheer determination, transforming ideas into (barely) working solutions.</p>
-          <a href=""><div className={styles.item}>
+          <div className={styles.item}>
           <div className={styles.thumbnail}>
             <img alt="project thumbnail" width={40}src={"https://thehub-io.imgix.net/files/s3/20200207125602-4d7877684841560f4fa59e54a9c45f9d.png?fit=crop&w=300&h=300&auto=format&q=60"}/ >
             </div>
@@ -171,8 +170,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
           </div>
           
 
-          </a>
-          <a href=""><div className={styles.item}>
+        <div className={styles.item}>
           <div className={styles.thumbnail}>
             <img alt="project thumbnail" width={40}src={"https://cryptologos.cc/logos/celo-celo-logo.png"}/ >
 
@@ -196,8 +194,8 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
           
                 
 
-          </a>
-          <a href=""><div className={styles.item}>
+        
+          <div className={styles.item}>
           <div className={styles.thumbnail}>
             <img alt="project thumbnail" width="40px" src={"https://cryptologos.cc/logos/algorand-algo-logo.png"}/ >
             </div>
@@ -220,8 +218,8 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
           
                 
 
-          </a>
-          <a href=""><div className={styles.item}>
+          
+          <div className={styles.item}>
           <div className={styles.thumbnail}>
             <img alt="project thumbnail" width="50px" src={"https://avatars.githubusercontent.com/u/104076707?s=280&v=4"}/ >
             </div>
@@ -248,7 +246,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
           
                 
 
-          </a>
+        
         </section>
         <section id="silicon"  className={styles.silicon}>
         <h2 ref={siliconSection}>Silicon Valley & Washington D.C.</h2>
