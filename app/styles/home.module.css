@@ -211,6 +211,11 @@ border: 1px solid rgba(255, 255, 255, 0.09);
     margin-top: 10px;
 }
 
+.main > section > p > a{
+    color: rgb(254, 98, 29);
+    font-weight: 600;
+}
+
 .pillContainer{
     display: flex;
     gap: 10px;
@@ -226,8 +231,8 @@ border: 1px solid rgba(255, 255, 255, 0.09);
     font-size: 0.8rem;
 }
 
-.main section:last-child img{
-    margin: 20px 0;
+.main section:last-child img,  .main section:last-child iframe{
+    margin: 20px 0 40px 0;
 }
 
 .item a{
