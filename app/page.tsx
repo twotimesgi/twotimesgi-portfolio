@@ -71,7 +71,7 @@ export default function Home() {
       <main className={styles.main}>
         <section id="about" className={styles.about}>
           <h2 ref={aboutSection} >About me</h2>
-          <p>Hello👋, I'm Luigi! Since writing my first line of code at 12, I've been captivated by the joy of building.
+          <p><p>Hi, I'm Luigi!👋</p><p>Since writing my first line of code at 12, I've been captivated by the joy of building.</p><p>From that moment, I knew that I had discovered my passion – a passion that would drive me to explore the endless possibilities of software development and entrepreneurship. </p> 
           </p>
           
        </section>
