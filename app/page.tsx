@@ -95,7 +95,7 @@ export default function Home() {
                 <div className={styles.date}>2022 - 2023</div>
                 <div className={styles.content}>
                   <h3 className={styles.link}>Software Engineer · Logyq Protocol</h3>
-                  <p>Delivered multiple products and core features. As the first tech hire at Logyq Protocol, I played a pivotal role in shaping the technology stack.</p>
+                  <p>Delivered multiple products and core features. As the first tech hire at Logyq Protocol, I played a pivotal role in shaping the technology stack and guided the development of various projects. This included crafting a web app, a mobile app, a discord bot, and a Shopify plugin to seamlessly integrate on-chain reviews directly onto product pages. </p>
                   <div className={styles.linksContainer}>
                     <span className={styles.link}><a href="https://www.lidonation.com/ja/proposals/logyq-protocol-social-commerce-and-digital-product-passport-f10#:~:text=Luigi%20Bardella%20Gerbi%20is%20our%20first%20employee%20and%20has%20been%20an%20invaluable%20contributor%20to%20our%20development%20work.%20He%20has%20proven%20to%20be%20up%20to%20any%20coding%20challenge%20and%20has%20helped%20us%20extensively%20in%20designing%20our%20product%20suite.">"Luigi Bardella Gerbi is our first employee and has been an invaluable contributor to our development work. He has proven to be up to any coding challenge and has helped us extensively in designing our product suite."
 </a></span>
