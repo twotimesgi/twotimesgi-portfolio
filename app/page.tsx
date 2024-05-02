@@ -16,9 +16,8 @@ const experience = [
     tags: [ "Blockchain", "Web3", "React", "Next.js", "TypeScript", "Flutter", "Liquid", "Node.js", "Shopify API", "Discord API", "Python", "Wagmi.js", "Google Cloud", "Cardano Node"],
   },
   {
-    title: "Fucking Around",
-    company: "Freelancer",
-    website: "",
+    title: "Freelancer",
+    company: "",
     location: "Remote",
     date: "2018 - 2021",
     description: "I helped dozens of SMEs digitalize their business and establish their online presence by building funnels and ecommerce stores.",
@@ -27,26 +26,12 @@ const experience = [
 ];
 
 export default function Home() {
-  const aboutSection = useRef<HTMLHeadingElement>(null);
-  const experienceSection = useRef<HTMLHeadingElement>(null);
-  const projectsSection = useRef<HTMLHeadingElement>(null);
-  const hackatonsSection = useRef<HTMLHeadingElement>(null);
-  const siliconSection = useRef<HTMLHeadingElement>(null);
-
   const wrapper = useRef<HTMLDivElement>(null);
   const mousePosition = useMousePosition();
 
   useEffect(() => {
     if (wrapper.current) wrapper.current.style.background = `radial-gradient(600px at ${mousePosition.x}px ${mousePosition.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`
   }, [mousePosition]);
-
-//   const checkInView = (ref: React.RefObject<HTMLHeadingElement | null>) => {
-//     if(ref.current){
-//     let rect = ref.current.getBoundingClientRect();
-//     return rect.top < window.innerHeight && rect.bottom >= 0;
-//     }
-//     return false;
-// };
 
   return (
     <div ref={wrapper} className={styles.wrapper}>
@@ -60,15 +45,6 @@ export default function Home() {
           
           
        </section>
-          {/* <nav>
-            <ul>
-              <li className={checkInView(aboutSection) ? styles.active: ""}><a  href="#about">About</a></li>
-              <li className={checkInView(experienceSection) ? styles.active: ""}><a href="#experience">Experience</a></li>
-              <li className={checkInView(projectsSection) ? styles.active: ""}><a href="#projects">Projects</a></li>
-              <li className={checkInView(hackatonsSection) ? styles.active: ""}><a href="#hackatons">Hackatons</a></li>
-              <li className={checkInView(siliconSection) ? styles.active: ""}><a href="#silicon">Silicon Valley & US</a></li>
-            </ul>
-          </nav> */}
           <div className={styles.socialBox}>
             <a href="https://github.com/twotimesgi">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className={styles.socialIcon} aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
@@ -88,7 +64,7 @@ export default function Home() {
       <main className={styles.main}>
         
         <section id="experience" className={styles.experience}>          
-        <h2 ref={experienceSection}>Work Experience</h2>
+        <h2>Work Experience</h2>
           
 <a href="https://logyqprotocol.com"> 
               <div className={styles.item}>
@@ -121,8 +97,9 @@ export default function Home() {
            
         </section>
         <section id="projects" className={styles.projects}>
-          <h2 ref={projectsSection}>Projects</h2>
+          <h2>Projects</h2>
 
+          
           <a href="https://github.com/twotimesgi/KNN"><div className={styles.item}>
           <div className={styles.thumbnail}>
             <Image alt="project thumbnail" height={55} src={Pokeball}/ >
@@ -135,7 +112,6 @@ export default function Home() {
                       <div className={styles.pill}>Machine Learning</div>
                       <div className={styles.pill}>Python</div>
                       <div className={styles.pill}>Scikit-learn</div>
-
                   </div>
                 </div>
           </div>
@@ -145,7 +121,7 @@ export default function Home() {
           </a>
         </section>
         <section id="hackatons"  className={styles.projects}>
-          <h2 ref={hackatonsSection}>Hackatons</h2>
+          <h2>Hackatons</h2>
           <p>
 In the chaotic realm of hackathons, success often boils down to the art of piecing things together with a mix of Red Bull-fueled energy and sheer determination, transforming ideas into (barely) working solutions.</p>
           <div className={styles.item}>
@@ -253,7 +229,7 @@ In the chaotic realm of hackathons, success often boils down to the art of pieci
         
         </section>
         <section id="silicon"  className={styles.silicon}>
-        <h2 ref={siliconSection}>Silicon Valley & Washington D.C.</h2>
+        <h2>Silicon Valley & Washington D.C.</h2>
         <iframe width="100%" height="500px" frameBorder="0" src="https://www.youtube.com/embed/HeCEctR0OF4?si=Mqt6auPwOCLKxosg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         <p>I've had the incredible privilege of being selected not just once, but twice, to embark on immersive journeys to Silicon Valley. </p><p>Both opportunities, bestowed upon me by the <a href="https://www.linkedin.com/company/silicon-valley-study-tour/">Silicon Valley Study Tour (SVST) + Boolean </a> and <a href="https://www.linkedin.com/school/silicon-valley-fellowship/">Silicon Valley Fellowship</a>, were grounded on personal merit. These experiences provided invaluable insights into the heartbeat of innovation and entrepreneurship.</p>
         <Image style={{width: "100%", height: "auto"}}alt="Luigi at Tesla" src={Tesla}></Image>
