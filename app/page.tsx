@@ -78,7 +78,7 @@ export default function Home() {
     <div ref={wrapper} className={styles.wrapper}>
       <header className={styles.header}>
         <div>
-          <img style={{borderRadius: "100px", border: "6px solid rgb(254, 98, 29)"}} width="150" src="https://media.licdn.com/dms/image/D4E03AQE9XiGD1WbbxQ/profile-displayphoto-shrink_800_800/0/1700247681332?e=1719446400&v=beta&t=hTyS180XBZuEGo4UUs_D7XQVPgl9I7G6peCczIwuZog"></img>
+          <img style={{borderRadius: "100px", border: "6px solid rgb(254, 98, 29)"}} width="150" src="https://media.licdn.com/dms/image/D4D03AQHqqP88yojINQ/profile-displayphoto-shrink_800_800/0/1721209024723?e=1728518400&v=beta&t=cRJU0CMLovkT5i-GRLYpj7aXJ03xEPoBHfMwFHaLeOM"></img>
           <h1>Luigi Bardella Gerbi</h1>
           <h2>Software Engineer</h2>
         <section id="about" className={styles.about}>
