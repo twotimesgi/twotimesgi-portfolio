@@ -5,7 +5,10 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Tesla from "../public/tesla.png";
 import Pokeball from "../public/pokeball.png";
+import Quince from "../public/Quince.png";
 import SocialIcons from "./components/socials";
+import { title } from "process";
+import { link } from "fs";
 
 
 const experience = [
@@ -32,6 +35,13 @@ const projects = [
     tags: ["KNN", "Machine Learning", "Python", "Scikit-learn"],
     thumbnail: Pokeball,
     link: "https://github.com/twotimesgi/KNN",
+  },
+  {
+    title: "Quince.party",
+    link: "https://quince.party",
+    thumbnail: Quince,
+    description: "Developed during my Master's at the University of Genoa and Georgetown University, Quince.party is a marketplace connecting Latino parents with quinceañera professionals. After interviewing 100 Latino parents, I designed, coded, and launched the MVP solo to validate the idea and gather feedback quickly, even though it could be more polished.",
+    tags: ["MongoDB", "React", "TypeScript", "Next.js"],
   }
 ]
 
@@ -116,7 +126,7 @@ export default function Home() {
           {projects.map((project, index) => (
           <a href={project.link}><div className={styles.item}>
           <div className={styles.thumbnail}>
-            <Image alt="project thumbnail" height={55} src={Pokeball}/ >
+            <Image alt="project thumbnail" height={55} src={project.thumbnail}/ >
             </div>
             <div className={styles.content}>
                   <h3 className={styles.link}>{project.title}</h3>
